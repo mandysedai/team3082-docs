@@ -733,3 +733,16 @@ classDiagram
 
 `Vector2`, `RMath`, `RTime`, `Constants` and `Tuning` are used almost everywhere, so
 the other diagrams leave those arrows out.
+
+<!-- GitHub Pages doesn't render Mermaid, so this draws the diagrams there. GitHub's repo view strips it. -->
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.esm.min.mjs";
+  document.querySelectorAll("pre > code.language-mermaid").forEach((code) => {
+    const div = document.createElement("div");
+    div.className = "mermaid";
+    div.textContent = code.textContent;
+    code.parentElement.replaceWith(div);
+  });
+  mermaid.initialize({ startOnLoad: false });
+  await mermaid.run();
+</script>
