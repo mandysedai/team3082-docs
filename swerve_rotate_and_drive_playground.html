@@ -34,7 +34,9 @@ input[type="range"]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;b
 button{padding:8px 16px;font-size:14px;background:transparent;color:var(--text-primary);border:.5px solid var(--border-strong);border-radius:var(--radius);cursor:pointer;transition:background .15s,transform .1s}
 button:hover{background:var(--surface-1)}
 button:active{background:var(--border);transform:scale(.98)}
+.subhead{font-size:14px;line-height:1.5;color:var(--text-secondary);margin:0 0 16px;max-width:65ch}
 </style></head><body><main>
+<p class="subhead">This playground copies the wheel math from the 2026Rebuilt repo (<code>SwerveManager.rotateAndDrive()</code> and <code>SwerveModule.rotateToRad()</code>). Checked against the code on 11/5/2026.</p>
 <h2 class="sr-only">Interactive top view of the swerve robot showing how each wheel's direction and speed come from adding the drive vector to a rotation vector, as in SwerveManager.rotateAndDrive.</h2>
 <style>
 .row{display:flex;align-items:center;gap:12px;margin:0 0 10px;font-size:14px;color:var(--text-secondary)}
