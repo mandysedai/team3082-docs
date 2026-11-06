@@ -1,0 +1,16 @@
+frc.robot
+frc.robot.auto
+frc.robot.auto.commands
+frc.robot.auto.routineManager
+frc.robot.controllermaps
+frc.robot.subsystems
+frc.robot.subsystems.LEDs
+frc.robot.subsystems.sensors
+frc.robot.subsystems.states
+frc.robot.subsystems.visualizer
+frc.robot.swerve
+frc.robot.swerve.sim
+frc.robot.swerve.visualizer
+frc.robot.utils
+frc.robot.utils.trajectories
+frc.robot.vision
